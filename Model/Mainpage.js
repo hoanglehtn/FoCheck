@@ -66,8 +66,8 @@ function listOfProducts() {
 }
 
 
-// When the user clicks on the product icon, it will switch to the link www.tiki.vn
-function productIcon() {
+// Redirect when user clicks on the product icon
+function redirect() {
     var productIcon = document.getElementById("productIcon");
     productIcon.addEventListener("click", function() {
         window.location.href = "https://www.tiki.vn/search?q=";
