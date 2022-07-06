@@ -64,3 +64,12 @@ function listOfProducts() {
         }
     });
 }
+
+
+// When the user clicks on the product icon, it will switch to the link www.tiki.vn
+function productIcon() {
+    var productIcon = document.getElementById("productIcon");
+    productIcon.addEventListener("click", function() {
+        window.location.href = "https://www.tiki.vn/search?q=";
+    });
+}
